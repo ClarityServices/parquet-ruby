@@ -23,7 +23,7 @@ magnus = { version = "0.7", features = ["rb-sys"] }
 parquet = { git = "https://github.com/njaremko/arrow-rs", branch = "nathan_06-24-remove_primitive_map_key_assertion_on_record_reader", features = ["json"] }
 parquet-ruby-adapter = { path = "../parquet-ruby-adapter" }
 rand = "0.9"
-rb-sys = "^0.9"
+rb-sys = "0.9.128"
 simdutf8 = "0.1.5"
 tempfile = "^3.15"
 thiserror = "2.0"
